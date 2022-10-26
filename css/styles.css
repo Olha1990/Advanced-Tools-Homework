@@ -19,7 +19,14 @@ h3 {
 h1 {
   font-size: 96px;
 }
-
+@media (max-width: 576px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    text-align: center;
+  }
+}
 h2 {
   font-size: 48px;
 }
